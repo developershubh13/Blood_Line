@@ -33,7 +33,7 @@ public class ProfileActivity extends AppCompatActivity {
 
 
 
-    
+
 
 
     DatabaseReference databaseReference;
@@ -92,6 +92,14 @@ public class ProfileActivity extends AppCompatActivity {
 
 
                 UserProfile userProfile=dataSnapshot.getValue(UserProfile.class);
+
+
+
+
+
+
+
+                
 
 
                 profileName.setText(userProfile.getRegisterName());
