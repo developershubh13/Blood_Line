@@ -31,6 +31,11 @@ public class ProfileActivity extends AppCompatActivity {
 
 
 
+
+
+    
+
+
     DatabaseReference databaseReference;
     private TextView profileName,profileEmail,profilePhone,profileBloodGroup,profileAge,profileGender,profileAdd1;
     private CircleImageView profileImage;
