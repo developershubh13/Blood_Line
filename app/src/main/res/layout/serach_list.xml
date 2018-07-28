@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    >
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_margin="5dp"
+        android:elevation="4dp"
+
+        >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            >
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/listimage"
+                android:layout_width="0dp"
+                android:layout_height="120dp"
+                android:layout_weight="0.4"
+                android:src="@drawable/default_user1"
+                android:layout_gravity="center_vertical"
+                />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.6"
+                android:orientation="vertical"
+                android:layout_gravity="center_vertical"
+
+                >
+
+
+
+
+
+                <TextView
+                    android:id="@+id/listname"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.33"
+                    android:text="Name"
+                    android:textSize="20sp"
+                    android:padding="5dp"
+
+
+
+                    />
+
+
+
+                <TextView
+                    android:id="@+id/listemail"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.33"
+                    android:text="Email"
+                    android:textSize="16sp"
+                    android:padding="5dp"
+
+                    />
+
+
+
+                <TextView
+                    android:id="@+id/listphone"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.33"
+                    android:textSize="16sp"
+                    android:text="Phone"
+                    android:padding="5dp"
+
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+
+
+                <TextView
+                    android:id="@+id/listmap"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.25"
+                    android:text="Map"
+                    android:textSize="0dp"
+                    />
+
+
+                <TextView
+                    android:id="@+id/listage"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.25"
+                    android:text="Age"
+                    android:textSize="0dp"
+                    />
+
+
+
+                <TextView
+                    android:id="@+id/listgender"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.3"
+                    android:text="Gender"
+                    android:textSize="0dp"
+                    />
+
+
+                <TextView
+                    android:id="@+id/listbloodgroup"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.3"
+                    android:text="BloodGroup"
+                    android:textSize="0dp"
+                    />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>

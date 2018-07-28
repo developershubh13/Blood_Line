@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/bottomsheet"
+    android:layout_width="match_parent"
+    android:layout_height="300dp"
+    android:orientation="vertical"
+    android:background="#9E9E9E"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    app:layout_behavior="android.support.design.widget.BottomSheetBehavior"
+    app:behavior_hideable="true"
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.2"
+        android:orientation="horizontal"
+        >
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.95"
+        android:text="Request Blood"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:gravity="center_vertical"
+        android:elevation="5dp"
+
+
+        />
+
+
+        <ImageView
+            android:id="@+id/bottom_sheet_close"
+            android:layout_width="0dp"
+            android:layout_height="20dp"
+            android:layout_weight="0.05"
+            android:src="@drawable/close"
+            android:layout_gravity="center_vertical"
+            android:scaleType="fitXY"
+            />
+
+
+    </LinearLayout>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/colorPrimary"
+        />
+
+
+
+    <Spinner
+        android:id="@+id/bottom_sheet_blood"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.2"
+        android:entries="@array/bloodgroups"
+        />
+
+
+
+    <EditText
+        android:id="@+id/bottom_sheet_units"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.2"
+        android:hint="No. Of Units Required.."
+        android:inputType="number"
+        />
+
+
+
+    <Button
+        android:id="@+id/bottom_sheet_submit"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.15"
+        android:text="Submit Request"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:paddingTop="10dp"
+        android:layout_marginBottom="10dp"
+        />
+
+
+
+
+</LinearLayout>

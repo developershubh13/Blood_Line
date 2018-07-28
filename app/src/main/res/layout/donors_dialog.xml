@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:elevation="4dp"
+    android:padding="5dp"
+    android:layout_gravity="center"
+
+    >
+
+
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/dialog_name"
+        android:textSize="20sp"
+        android:text="Name"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:textColor="#000"
+        android:layout_gravity="center"
+
+        />
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/colorPrimary"
+        android:layout_marginTop="5dp"
+        />
+
+
+
+
+
+
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.7"
+        android:orientation="horizontal"
+
+        >
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/dialog_image"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/default_user"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="0.4"
+            android:elevation="5dp" />
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.6"
+            android:orientation="vertical"
+            android:layout_marginTop="20dp"
+            >
+
+
+
+            <TextView
+                android:id="@+id/dialog_age"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.25"
+                android:text="Age"
+                android:paddingLeft="10dp"
+                android:gravity="center_vertical"
+                />
+
+
+
+            <TextView
+                android:id="@+id/dialog_gender"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.25"
+                android:text="Gender"
+                android:paddingLeft="10dp"
+                android:gravity="center_vertical"
+                />
+
+
+            <TextView
+                android:id="@+id/dialog_phone"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.25"
+                android:text="Phone"
+                android:paddingLeft="10dp"
+                android:gravity="center_vertical"
+                />
+
+
+
+            <TextView
+                android:id="@+id/dialog_email"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.25"
+                android:text="Email"
+                android:paddingLeft="10dp"
+                android:gravity="center_vertical"
+                />
+
+
+
+
+        </LinearLayout>
+
+
+
+
+
+
+</LinearLayout>
+
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/colorPrimary"
+        android:layout_marginTop="5dp"
+        />
+
+
+
+
+
+    <TextView
+        android:id="@+id/dialog_add"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.2"
+        android:padding="10dp"
+        android:text="Address"
+        android:minLines="2"
+        />
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.1"
+        android:orientation="horizontal"
+        >
+
+
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/dialog_call"
+            android:layout_weight="0.33"
+            android:src="@drawable/call"
+            android:padding="5dp"
+            android:scaleType="fitCenter"
+
+            />
+
+
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/dialog_gmail"
+            android:layout_weight="0.33"
+            android:src="@drawable/gmail"
+            android:padding="5dp"
+            android:scaleType="fitCenter"
+            />
+
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/dialog_map"
+            android:layout_weight="0.33"
+            android:src="@drawable/maps"
+            android:padding="5dp"
+
+            android:scaleType="fitCenter"
+
+
+            />
+
+
+    </LinearLayout>
+
+
+    </LinearLayout>

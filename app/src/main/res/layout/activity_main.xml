@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.skshubhamiitkmr.bloodbankproject.MainActivity">
+
+
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Login"
+    android:textAllCaps="false"
+    android:layout_gravity="center"
+    android:layout_margin="20dp"
+    android:textSize="50dp"
+    />
+
+
+
+
+
+    <EditText
+        android:id="@+id/loginname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:layout_margin="20dp"
+
+        />
+
+
+
+    <EditText
+        android:id="@+id/loginpassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:layout_margin="20dp"
+        android:inputType="textPassword"
+        />
+
+
+
+    <Button
+        android:id="@+id/loginbutton"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:text="Login"
+        android:layout_margin="20dp"
+        />
+
+
+
+
+    <TextView
+        android:id="@+id/loginmessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New User? Sign Up!"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        android:layout_margin="30dp"
+        />
+
+
+</LinearLayout>
