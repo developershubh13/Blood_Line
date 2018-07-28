@@ -1,5 +1,4 @@
-package com.example.skshubhamiitkmr.bloodbankproject;
-
+package com.example.skshubhamiitkmr.bloodbankproject;//Line Deleted
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.DividerItemDecoration;
